@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="C5D5C155-6B0A-A455-CCE7-76B54D7D19ED">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-21 20:48:29 UTC</createdTime>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

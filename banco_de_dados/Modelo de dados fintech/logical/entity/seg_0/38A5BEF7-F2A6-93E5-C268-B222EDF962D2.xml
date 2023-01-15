@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="38A5BEF7-F2A6-93E5-C268-B222EDF962D2" name="T_CATEGORIAS">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 00:50:14 UTC</createdTime>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<engineerTo>
+<item key="93DA1598-A3C1-3188-6120-BC937C50064F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_categoria" id="E0FACB4D-90F8-F4C5-FBC9-1DAB29F9F3D9">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 00:50:29 UTC</createdTime>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<engineerTo>
+<item key="93DA1598-A3C1-3188-6120-BC937C50064F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_categoria" id="724CC13E-8F4C-F5A9-FD8A-CA2478101713">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 00:51:05 UTC</createdTime>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<engineerTo>
+<item key="93DA1598-A3C1-3188-6120-BC937C50064F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E5E66BFC-5984-F5D0-FDFC-C6B3AB94C90A" name="T_CATEGORIAS PK">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 00:51:02 UTC</createdTime>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<engineerTo>
+<item key="93DA1598-A3C1-3188-6120-BC937C50064F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E0FACB4D-90F8-F4C5-FBC9-1DAB29F9F3D9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

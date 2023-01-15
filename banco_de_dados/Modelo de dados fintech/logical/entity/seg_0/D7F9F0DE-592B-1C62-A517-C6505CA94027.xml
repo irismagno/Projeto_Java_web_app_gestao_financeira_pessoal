@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D7F9F0DE-592B-1C62-A517-C6505CA94027" name="T_CNT_C">
+<createdBy>irism</createdBy>
+<createdTime>2022-10-03 23:41:42 UTC</createdTime>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<engineerTo>
+<item key="93DA1598-A3C1-3188-6120-BC937C50064F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_conta" id="2C2852AB-CC7A-DDE7-0E08-122BCD24D9BA">
+<createdBy>irism</createdBy>
+<createdTime>2022-10-04 00:29:32 UTC</createdTime>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<engineerTo>
+<item key="93DA1598-A3C1-3188-6120-BC937C50064F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_inst" id="91EB1F50-DBBF-A000-AEC5-9DE34F313275">
+<createdBy>irism</createdBy>
+<createdTime>2022-10-03 23:47:33 UTC</createdTime>
+<generatorID>D7BB2F59-F779-D679-2B5E-0635FAE58266</generatorID>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<engineerTo>
+<item key="93DA1598-A3C1-3188-6120-BC937C50064F" value="true"/>
+</engineerTo>
+<referedAttribute>E8543D04-DC01-BDD2-E3AA-CE2FA7A748A1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_usuario" id="D8E2DF7D-E4A7-0202-8118-CD60F47CD873">
+<createdBy>irism</createdBy>
+<createdTime>2022-10-04 00:03:29 UTC</createdTime>
+<generatorID>4888C94D-7760-675D-386A-AC5635FAA74B</generatorID>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<engineerTo>
+<item key="93DA1598-A3C1-3188-6120-BC937C50064F" value="true"/>
+</engineerTo>
+<referedAttribute>CA2E147B-58AA-0B55-D873-AD0254DE18B6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_saldo" id="38281205-86B7-5739-D152-C91946F55ADE">
+<createdBy>irism</createdBy>
+<createdTime>2022-10-04 00:21:23 UTC</createdTime>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<engineerTo>
+<item key="93DA1598-A3C1-3188-6120-BC937C50064F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_descricao" id="09F433DD-ED80-3B76-0901-9170EEF82119">
+<createdBy>irism</createdBy>
+<createdTime>2022-10-04 00:32:21 UTC</createdTime>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<engineerTo>
+<item key="93DA1598-A3C1-3188-6120-BC937C50064F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B16AABEA-3895-E3A3-2229-EBF20A368122" name="T_CNT_CORRENTE PK">
+<createdBy>irism</createdBy>
+<createdTime>2022-10-04 00:27:04 UTC</createdTime>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="93DA1598-A3C1-3188-6120-BC937C50064F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>91EB1F50-DBBF-A000-AEC5-9DE34F313275</attributeRef>
+<attributeRef>2C2852AB-CC7A-DDE7-0E08-122BCD24D9BA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="84AC1F63-B9A6-45F6-DD3A-9B5954886287">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-21 20:48:28 UTC</createdTime>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

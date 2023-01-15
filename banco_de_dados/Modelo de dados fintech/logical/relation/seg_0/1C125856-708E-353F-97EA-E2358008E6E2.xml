@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_12" directorySegmentName="seg_0" id="1C125856-708E-353F-97EA-E2358008E6E2">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 00:45:29 UTC</createdTime>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<engineerTo>
+<item key="93DA1598-A3C1-3188-6120-BC937C50064F" value="true"/>
+</engineerTo>
+<sourcePk>9361E24E-6E90-71AB-A536-870B2178C0BC</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2959187B-4498-E6FA-F039-787D01AFEB8F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B4C1B9E9-522E-45D9-7F45-AE41C07B60D2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

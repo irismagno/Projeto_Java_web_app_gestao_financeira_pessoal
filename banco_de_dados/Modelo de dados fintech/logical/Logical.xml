@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B1CCBF2A-34BF-E472-526F-7D4A41157775" mainViewID="4806ED46-C58A-8B87-F16B-E9074788D3D3">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-21 20:48:28 UTC</createdTime>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

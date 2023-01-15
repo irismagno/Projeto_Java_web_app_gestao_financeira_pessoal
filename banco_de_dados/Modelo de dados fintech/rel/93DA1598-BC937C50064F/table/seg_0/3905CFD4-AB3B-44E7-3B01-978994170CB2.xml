@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3905CFD4-AB3B-44E7-3B01-978994170CB2" name="T_CNT_INVEST">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 01:40:07 UTC</createdTime>
+<generatorID>E1A69EFC-C541-B97F-A7EC-4CD251430655</generatorID>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_invst" id="A7F8D6B8-827F-15CE-5887-33BA05FC840E">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 01:40:07 UTC</createdTime>
+<generatorID>7E783B63-76D2-BE37-9877-16839E739462</generatorID>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_cd_usuario" id="13CFB254-C7B6-CE47-104C-3C8989E95363">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 01:40:07 UTC</createdTime>
+<generatorID>1634428D-75F6-1265-8568-4E2F23AAC6C0</generatorID>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2643FD7D-80F1-0E0C-46D3-6160B167E162" referredColumn="4CA8DDB9-B167-EE45-4978-7486F8EECF54"/>
+</associations>
+</Column>
+<Column name="T_TIPO_INVEST_cd_tp_invest" id="D6A0CCB5-C464-E127-3889-40C032F953EF">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 01:40:07 UTC</createdTime>
+<generatorID>E9708724-91F8-BD47-64F3-0613532EB90D</generatorID>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1185BB70-8218-041D-CD9B-3E2B50ED13EF" referredColumn="7FC2E085-4A80-031C-5006-52B8DC5E04BD"/>
+</associations>
+</Column>
+<Column name="T_INST__FIN_cd_inst" id="C19D9720-AD6F-A4E4-73CA-E8E5AD3F6410">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 01:40:07 UTC</createdTime>
+<generatorID>5A225243-9A08-5548-BD37-1D57A17A746C</generatorID>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2BB4F03-9359-4E1D-D391-DCC580B02F10" referredColumn="C0F33347-BA91-C90C-B3C7-44E65A613FD9"/>
+</associations>
+</Column>
+<Column name="ds_descricao" id="88A1B62B-605F-A789-AD2E-7E763DB02364">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 01:40:07 UTC</createdTime>
+<generatorID>08A887D1-0F20-67F2-4AE6-5DB8F1712D56</generatorID>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_valor" id="01B568B7-17E7-545F-4739-765F67B69EB2">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 01:40:07 UTC</createdTime>
+<generatorID>38CE2FDB-4ADD-AC98-01C2-B66403D19589</generatorID>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_dt_aplicacao" id="9314A9D8-3346-48F9-8026-C5486E9F0970">
+<createdBy>irism</createdBy>
+<createdTime>2022-10-04 00:33:09 UTC</createdTime>
+<generatorID>722AA376-22C8-2F02-A613-67F4694B16D0</generatorID>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_prazo" id="0A0832DD-2F6E-4731-7F58-FCECABF0FE94">
+<createdBy>irism</createdBy>
+<createdTime>2022-10-04 00:33:09 UTC</createdTime>
+<generatorID>B33C70AB-4618-1418-0F01-2DE89475EEA0</generatorID>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C425917F-E725-99F5-6DEA-4E6E95FEDE1F" name="T_INVEST_PK">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 01:40:07 UTC</createdTime>
+<generatorID>88A805AC-5FA0-EBE4-5EFD-93B8524182DC</generatorID>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13CFB254-C7B6-CE47-104C-3C8989E95363"/>
+<colUsage columnID="A7F8D6B8-827F-15CE-5887-33BA05FC840E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83B76501-D76F-2C29-4BA4-11E178FD10DE" name="T_CNT_INVEST_T_USUARIO_FK">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 01:40:07 UTC</createdTime>
+<generatorID>69804A54-AE69-6761-A5B8-2254554074C4</generatorID>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13CFB254-C7B6-CE47-104C-3C8989E95363"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABA27781-9CC3-240D-BC22-13B3566075C2" name="T_CNT_INVEST_T_TIPO_INVEST_FK">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 01:40:07 UTC</createdTime>
+<generatorID>40C5CD33-F5D6-E42D-7874-A10C00E9B57A</generatorID>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6A0CCB5-C464-E127-3889-40C032F953EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A8E8183-7EEF-924A-6F95-CE5E3574A61B" name="T_CNT_INVEST_T_INST__FIN_FK">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 01:40:07 UTC</createdTime>
+<generatorID>B9014B87-445C-7598-B59B-F23D0A51A97F</generatorID>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C19D9720-AD6F-A4E4-73CA-E8E5AD3F6410"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B4C1B9E9-522E-45D9-7F45-AE41C07B60D2" name="T_GAST">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 00:45:07 UTC</createdTime>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<engineerTo>
+<item key="93DA1598-A3C1-3188-6120-BC937C50064F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_gast" id="47834058-2FB3-BAD8-6C27-6ECE6CA4A3D9">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 00:46:38 UTC</createdTime>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<engineerTo>
+<item key="93DA1598-A3C1-3188-6120-BC937C50064F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_usuario" id="C3674174-FA28-C6E2-4B66-011D656E7156">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 00:45:29 UTC</createdTime>
+<generatorID>1C125856-708E-353F-97EA-E2358008E6E2</generatorID>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<engineerTo>
+<item key="93DA1598-A3C1-3188-6120-BC937C50064F" value="true"/>
+</engineerTo>
+<referedAttribute>CA2E147B-58AA-0B55-D873-AD0254DE18B6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_categoria" id="03962B56-33F5-9EE6-B97B-152845169C75">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 00:51:51 UTC</createdTime>
+<generatorID>B316BB49-62D7-A0B9-4600-78F0BC68A0E4</generatorID>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<engineerTo>
+<item key="93DA1598-A3C1-3188-6120-BC937C50064F" value="true"/>
+</engineerTo>
+<referedAttribute>E0FACB4D-90F8-F4C5-FBC9-1DAB29F9F3D9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_inst" id="396708F0-EFF5-DAAD-6190-64C200334ABE">
+<createdBy>irism</createdBy>
+<createdTime>2022-10-04 00:27:16 UTC</createdTime>
+<generatorID>93E5E925-38A0-9F39-BE46-7C2DBD245CB0</generatorID>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<engineerTo>
+<item key="93DA1598-A3C1-3188-6120-BC937C50064F" value="true"/>
+</engineerTo>
+<referedAttribute>91EB1F50-DBBF-A000-AEC5-9DE34F313275</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_conta" id="94091301-50F3-620B-3F19-0B984BA57A66">
+<createdBy>irism</createdBy>
+<createdTime>2022-10-04 00:30:00 UTC</createdTime>
+<generatorID>93E5E925-38A0-9F39-BE46-7C2DBD245CB0</generatorID>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<engineerTo>
+<item key="93DA1598-A3C1-3188-6120-BC937C50064F" value="true"/>
+</engineerTo>
+<referedAttribute>2C2852AB-CC7A-DDE7-0E08-122BCD24D9BA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_valor" id="09601C96-C1BB-684A-5444-A5B8D12B6CF1">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 00:48:22 UTC</createdTime>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<engineerTo>
+<item key="93DA1598-A3C1-3188-6120-BC937C50064F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_data" id="05780118-BC14-5DF1-BBD9-24C6C2DA11BE">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 00:48:49 UTC</createdTime>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<engineerTo>
+<item key="93DA1598-A3C1-3188-6120-BC937C50064F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_descricao" id="87A312FA-34B8-094E-9CAC-CD6B17AF323B">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 00:49:45 UTC</createdTime>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<engineerTo>
+<item key="93DA1598-A3C1-3188-6120-BC937C50064F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8D5982DC-96DF-612B-AA8D-D332F320203D" name="T_GASTOS PK">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 00:45:58 UTC</createdTime>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="93DA1598-A3C1-3188-6120-BC937C50064F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C3674174-FA28-C6E2-4B66-011D656E7156</attributeRef>
+<attributeRef>47834058-2FB3-BAD8-6C27-6ECE6CA4A3D9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

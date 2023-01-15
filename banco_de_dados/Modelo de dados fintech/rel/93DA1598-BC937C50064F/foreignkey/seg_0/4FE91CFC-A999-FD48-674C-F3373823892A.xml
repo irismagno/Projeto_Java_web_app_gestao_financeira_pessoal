@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4FE91CFC-A999-FD48-674C-F3373823892A" containerWithKeyObject="54682B28-B5E6-ADD8-054B-F18A28747B81" localFKIndex="42865427-723F-9D7D-C095-AAF82A508744" name="T_CNT_C_T_INST__FIN_FK">
+<createdBy>irism</createdBy>
+<createdTime>2022-10-04 00:33:09 UTC</createdTime>
+<generatorID>D7BB2F59-F779-D679-2B5E-0635FAE58266</generatorID>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<referredTableLongName>T_INST__FIN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B1F89C03-4DB9-52D4-4DC6-04D156B0AFB7</referredTableID>
+<keyObject>613841C8-2F82-4E7F-DBEF-34E1D4821541</keyObject>
+<referredKeyID>613841C8-2F82-4E7F-DBEF-34E1D4821541</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_inst</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo de dados fintech" id="28DFD1E4-C235-37FD-CFBF-FA04EA928398" version="3.5">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-21 20:48:28 UTC</createdTime>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>28DFD1E4-C235-37FD-CFBF-FA04EA928398</designId>
+</OSDM_Design>

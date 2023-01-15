@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5241C2AF-CABF-3816-2722-BE7EC1E4C4AE" name="T_GENERO">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 01:40:07 UTC</createdTime>
+<generatorID>C36312B3-8FC7-DB68-4FEB-EF2CB24EAF4F</generatorID>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_genero" id="66931005-098A-B7E1-CCE6-30F50FE021FD">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 01:40:07 UTC</createdTime>
+<generatorID>B360CB7D-403C-01EF-1C40-B290448D2CB3</generatorID>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_genero" id="B28B8232-19C6-E502-8D39-94CA42B3CC46">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 01:40:07 UTC</createdTime>
+<generatorID>D24AED3A-A1BF-C07C-BDFD-938BEA75D4EA</generatorID>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="816C25FA-DB85-8451-6F9E-30DA24EEBC47" name="T_GENERO_PK">
+<createdBy>irism</createdBy>
+<createdTime>2022-05-22 01:40:07 UTC</createdTime>
+<generatorID>04944CA5-9C12-087B-9F11-9003F485030F</generatorID>
+<ownerDesignName>Modelo de dados fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66931005-098A-B7E1-CCE6-30F50FE021FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
