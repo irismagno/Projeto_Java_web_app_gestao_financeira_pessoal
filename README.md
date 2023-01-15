@@ -10,7 +10,8 @@ Contribua com este projeto!
 03) Alterar o Banco de dados adicionando um id para cada conta corrente de forma a permitir o cadastramento de contas de números iguais em um mesmo banco;
 04) Tornar mais rápido o carregamento da tela de "análises" por meio de melhorias na forma como o BD é consultado via comandos SQL;
 05) Construir um CRUD para os objetivos financeiros do usuário;
-06) Desenvolver toda a parte de gestão de investimentos e relacioná-los aos objetivos do usuário.
+06) Desenvolver toda a parte de gestão de investimentos e relacioná-los aos objetivos do usuário;
+07) Hospedar o projeto em algum servidor gratuito. 
 
 Dúvidas? Não exite em nos contatar: irismagno@yahoo.com.br
 
