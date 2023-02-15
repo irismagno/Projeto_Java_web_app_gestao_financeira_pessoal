@@ -1,5 +1,7 @@
 # Projeto_Java_web_app_gestao_financeira_pessoal
-Projeto Java web de uma aplicação para gestão financeira pessoal, trabalho desenvolvido ao longo do primeiro ano do curso de Análise e Desenvolvimento de Sistemas da FIAP em 2022.
+Trata-se do MVP de um projeto Java web para gestão financeira pessoal, trabalho desenvolvido ao longo do primeiro ano do curso de Análise e Desenvolvimento de Sistemas da FIAP em 2022.
+
+Para fins didáticos, não foi utilizado nenhum framework de tal forma que os acessos ao BD são realizados através de classes DAO e o controller é centralizado em uma Servlet.
 
 # Desafios atuais:
 
